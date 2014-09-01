@@ -31,5 +31,5 @@
     "autoload": {
         "psr-0": { "MadeByPi\\PriorityOneBundle": "" }
     },
-    "target-dir": "MadeByPi/PriorityOneBundle",
+    "target-dir": "MadeByPi/PriorityOneBundle"
 }
