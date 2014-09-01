@@ -1,0 +1,35 @@
+{
+    "name": "madebypi/priority-one-bundle",
+    "description": "Provides a service and supporting methods for interacting with the priorityOne api",
+    "keywords": ["priority1"],
+    "homepage": "https://github.com/MadeByPi/PriorityOneBundle",
+    "type": "symfony-bundle",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "Mark Spilsbury",
+            "email": "mark.spilsbury@madebypi.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "require-dev": {
+        "sensio/framework-extra-bundle": "*",
+        "symfony/class-loader": "*",
+        "symfony/yaml": "*",
+        "symfony/browser-kit": "*",
+        "symfony/finder": "*",
+        "symfony/css-selector": "*",
+        "symfony/process": "*",
+        "doctrine/doctrine-bundle": "*",
+        "symfony/twig-bundle": "*",
+        "doctrine/orm": "*",
+        "symfony/form": "*",
+        "symfony/validator": "*"
+    },
+    "autoload": {
+        "psr-0": { "MadeByPi\\PriorityOneBundle": "" }
+    },
+    "target-dir": "MadeByPi/PriorityOneBundle",
+}
